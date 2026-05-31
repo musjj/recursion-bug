@@ -10,7 +10,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest]
-        url: ["denful/den/v0.16.0", "sini/den/fix/575-dynamic-forward"]
+        url: ["denful/den/v0.16.0", "denful/den/main"]
     name: Den (url ${{matrix.url}})
     runs-on: ${{matrix.os}}
     steps:
